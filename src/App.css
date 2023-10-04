@@ -1,0 +1,20 @@
+.app {
+    background-size: cover;
+    background-position: center;
+}
+
+.app.bg1 {
+    background-image: url(/green.png);
+}
+
+.app.bg2 {
+    background-image: url(/yellow.png);
+}
+
+.app.bg3 {
+    background-image: url(/pink.png);
+}
+
+.app.bg4 {
+    background-image: url(/blue.png);
+}
