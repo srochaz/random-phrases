@@ -12,11 +12,12 @@ const QuoteCard = ({ quote, handleChangeQuote }) => {
         <p className="quoteCard__phrase">{quote.phrase}</p>
 
         <button className="quoteCard__btn" onClick={handleChangeQuote}>
-          Change
+          Ver Otro
         </button>
       </article>
 
-      <footer className="quoteCard__footer">Author: {quote.author}</footer>
+      <footer
+      className="quoteCard__footer">Author: {quote.author}</footer>
     </section>
   );
 };

@@ -6,6 +6,7 @@
     align-items: center;
     padding: 10px;
     color: rgb(237, 237, 231);
+    justify-items: center;
 }
 
 .quoteCard__phrase {
@@ -13,3 +14,26 @@
     max-width: 400px;
     }
 
+.quoteCard__btn {
+    Width: 91px;
+    Height: 35px;
+    Top:   250px;
+    Left:    549px;
+    Border:    2px;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(140, 140, 208);
+
+}
+
+.quoteCard__footer {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background-color: azure;
+    opacity: 50;
+    color: black;
+    Height: 25px;
+    width: 50%;      
+}
