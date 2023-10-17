@@ -4,36 +4,36 @@
     grid-template-rows: 1fr auto;
     text-align: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     color: rgb(237, 237, 231);
-    justify-items: center;
+}
+
+.quoteCard__title{
+    size: 36px;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 43.56px;
+    color: #FFFFFF;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .quoteCard__phrase {
     margin: 30px auto;
     max-width: 400px;
+    background: rgb(233, 233, 233);
+    color: black;
+    padding: 30px;
     }
 
 .quoteCard__btn {
-    Width: 91px;
-    Height: 35px;
-    Top:   250px;
-    Left:    549px;
+    Width: 181PX;
+    Height: 44px;
+    Top:   490PX;
+    Left:   549px;
     Border:    2px;
-    border-radius: 10%;
-    color: rgb(0, 0, 0);
+    border-radius: 10PX;
+    color: rgb(3, 0, 0);
     font-size: large;
-    background-color: rgb(140, 140, 208);
-
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF)
 }
 
-.quoteCard__footer {
-    display: grid;
-    text-align: center;
-    align-items: center;
-    background-color: azure;
-    opacity: 50;
-    color: black;
-    Height: 25px;
-    width: 50%;      
-}

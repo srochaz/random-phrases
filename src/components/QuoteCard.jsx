@@ -7,12 +7,12 @@ const QuoteCard = ({ quote, handleChangeQuote }) => {
   return (
     <section className="quoteCard">
       <article className="quoteCard__container">
-        <h1 className="quoteCard__title">GALLETAS DE LA FORTUNA</h1>
+        <h1 className="quoteCard__title">COOKIE FORTUNE</h1>
 
         <p className="quoteCard__phrase">{quote.phrase}</p>
 
         <button className="quoteCard__btn" onClick={handleChangeQuote}>
-          Ver Otro
+         Other
         </button>
       </article>
 
